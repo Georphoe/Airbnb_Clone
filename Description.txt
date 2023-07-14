@@ -1,0 +1,11 @@
+-Data_driven_React
+-Props
+-Creating components froam an array
+-array.map()
+-conditional rendering
+-object spread syntax
+
+
+
+-Props
+-Mapping data
