@@ -17,7 +17,7 @@ export default function Card(props) {
            
             {/* {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>} a conditional rendering statement using the logical AND (&&) operator. */}
             {badgeText != undefined && <div className="card--badge">{badgeText}</div>}  {/* Js 的 sytax 要在搞懂一下 */}
-           <img src={`../images/${props.item.coverImg}`} className="card--image"/>
+           <img src={`../Airbnb_Clone/images/${props.item.coverImg}`} className="card--image"/>
             <div className="card--stats">
                 <img src="../images/star.png" className="card--star"/>
                 <span>{props.item.stats.rating}</span> 
