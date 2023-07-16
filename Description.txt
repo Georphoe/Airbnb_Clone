@@ -1,6 +1,6 @@
 -Data_driven_React
 -Props
--Creating components froam an array
+-Creating components from an array
 -array.map()
 -conditional rendering
 -object spread syntax
@@ -9,3 +9,6 @@
 
 -Props
 -Mapping data
+
+This porject is aim to further enhence develop my React skill. This Airbnb Clone webiste is a data-driven react. The main focus of this porject is the implementation of pros, mapping data and and using .map() method to dynamically rendering React components based on the data present in an array. This porject also used conditional rendering and object spread syntax.
+
