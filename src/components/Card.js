@@ -19,7 +19,7 @@ export default function Card(props) {
             {badgeText != undefined && <div className="card--badge">{badgeText}</div>}  {/* Js 的 sytax 要在搞懂一下 */}
            <img src={`../Airbnb_Clone/images/${props.item.coverImg}`} className="card--image"/>
             <div className="card--stats">
-                <img src="../Airbnb_Cloneㄥimages/star.png" className="card--star"/>
+                <img src="../Airbnb_Clone/images/star.png" className="card--star"/>
                 <span>{props.item.stats.rating}</span> 
                 <span className="gray">({props.item.stats.reviewCount}) • </span> 
                 <span className="gray">{props.item.location}</span> 
